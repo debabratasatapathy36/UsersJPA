@@ -34,11 +34,11 @@ public Optional<users> getUserbyid(int id) {
 	return userrepository.findById(id);
 }
 public List<users> findbyname(String name) {
-	// TODO Auto-generated method stub
+
 	return userrepository.findByName(name);
 }
 public List<users> findbysalary(int salary) {
-	// TODO Auto-generated method stub
+	
 	return userrepository.findusersbysalary(salary);
 }
 public boolean  DeleteUser(int id) {
